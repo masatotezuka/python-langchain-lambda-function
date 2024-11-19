@@ -1,3 +1,5 @@
+## コンテナイメージで Lambda 関数を実行できるアプリ
+
 ## 環境構築
 
 1. リポジトリのクローン
@@ -25,5 +27,5 @@ docker compose up --build
 下記の curl コマンドをターミナルで叩く
 
 ```
-curl "https://5bjtgeuqxnqsvrs4a53wt4lhsa0hhlps.lambda-url.ap-northeast-1.on.aws/" -d '{"target": "男性"}'
+curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"target": "男性"}'
 ```
