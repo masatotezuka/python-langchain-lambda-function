@@ -25,5 +25,5 @@ docker compose up --build
 下記の curl コマンドをターミナルで叩く
 
 ```
-curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"target": "男性"}'
+curl "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"target": "ハンバーグ"}'
 ```
